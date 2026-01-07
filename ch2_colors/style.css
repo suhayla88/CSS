@@ -1,4 +1,38 @@
 h1 {
 
-    color: blueviolet;
+/*1.This's how css color names works...*/ 
+   /* color: blueviolet;*/
+
+   /*2.This's how css rgb colors, work...*/
+  /* color: rgb(0, 128, 128);*/
+   
+  /*3.Thi's how Hexadecimal works... color: #FFFF00
+  -Binary means: The whole counting, and it's base is 2.
+  -Computers use only 0, and 1.
+   */
+
+/*HSL:
+   hsl(0, 100%, 50%)
+   */
+
+   /*Opacity: means transparentcy(something u can see through it.)*/
+
+  /* Alpha,Transparency,Opacity, See-throw. They all mean the same.*/  
+  
+  color: rgba(255, 0, 0 , 1);
 }
+  body {
+
+    background-color: rgb(252, 252, 252);
+  }
+
+  div {
+        border: solid blue 5px;
+        height: 200px;
+        width: 200px;
+        background-color: rgb(196, 23, 23);
+        opacity: 0.8;
+
+
+
+  }
